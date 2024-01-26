@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(275deg, #3674d8, #71168d);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+#loginform{
+  margin-left: auto;
+  margin-right: auto;
+}
+#registerform{
+  margin-left: auto;
+  margin-right: auto;
+}
+#navbarNav{
+  display: flex;
+  justify-content: space-around;
 }
